@@ -1,5 +1,5 @@
 # taxi-trajectory-analysis
-[Taxi Img](https://github.com/vavaidya/taxi-trajectory-analysis/blob/master/Taxi_Img.jpg)
+![Taxi Img](https://github.com/vavaidya/taxi-trajectory-analysis/blob/master/Taxi_Img.jpg)
 
 ## INTRODUCTION
 Uber for a while made its way in the legal grey areas of Portugal. Until only recently in 2019 did Uber begin legal operations in the city of Porto. But was this the first that the city had interacted with cabs? In 2013-14 alone a small fleet of 442 taxi's in Porto, Portugal made 1.7 Million trips throughout the city. Could a data oriented approach back then have helped city planning and reduce taxi times in today's traffic ruled roads?
@@ -21,6 +21,7 @@ The meat of the problem lies in how we set this up for analysis.
 ## LEARNINGS
 * On trying different computation heavy models like Random Forest, gradient boosting the linear regression actually outperformed in terms of R-squared and was computationally way cheaper.
 * Also, the ease of interpretibility of the regression coefficients in a set up like this was priceless
+* Plotting interactive heatmaps and routemaps using the folium and rasterio libraries on Python
 
 ## REPOSITORY DETAILS
 [Link to Kaggle dataset](https://www.kaggle.com/crailtap/taxi-trajectory)
