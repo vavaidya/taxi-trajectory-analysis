@@ -1,5 +1,4 @@
 # taxi-trajectory-analysis
-[Link to Kaggle dataset](https://www.kaggle.com/crailtap/taxi-trajectory)
 [Taxi Img](https://github.com/vavaidya/taxi-trajectory-analysis/blob/master/Taxi_Img.jpg)
 
 ## INTRODUCTION
@@ -24,6 +23,8 @@ The meat of the problem lies in how we set this up for analysis.
 * Also, the ease of interpretibility of the regression coefficients in a set up like this was priceless
 
 ## REPOSITORY DETAILS
+[Link to Kaggle dataset](https://www.kaggle.com/crailtap/taxi-trajectory)
+
 [Taxi Route Read](https://github.com/vavaidya/taxi-trajectory-analysis/blob/master/Taxi%20Route%20Read.ipynb) - this file process the original CSV file and writes a pandas dataframe into a pickle file. 
 
 [Starting with Pickle](https://github.com/vavaidya/taxi-trajectory-analysis/blob/master/Starting%20With%20Pickle.ipynb) - this file bins our coordinate data for use in a predictive model
